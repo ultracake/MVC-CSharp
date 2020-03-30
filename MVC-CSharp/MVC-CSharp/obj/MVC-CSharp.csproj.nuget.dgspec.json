@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jacki\\Desktop\\test mvc\\MVC-CSharp\\MVC-CSharp\\MVC-CSharp.csproj": {}
+    "C:\\Users\\jacki\\Desktop\\python kode\\MVC-CSharp\\MVC-CSharp\\MVC-CSharp\\MVC-CSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jacki\\Desktop\\test mvc\\MVC-CSharp\\MVC-CSharp\\MVC-CSharp.csproj": {
+    "C:\\Users\\jacki\\Desktop\\python kode\\MVC-CSharp\\MVC-CSharp\\MVC-CSharp\\MVC-CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jacki\\Desktop\\test mvc\\MVC-CSharp\\MVC-CSharp\\MVC-CSharp.csproj",
+        "projectUniqueName": "C:\\Users\\jacki\\Desktop\\python kode\\MVC-CSharp\\MVC-CSharp\\MVC-CSharp\\MVC-CSharp.csproj",
         "projectName": "MVC-CSharp",
-        "projectPath": "C:\\Users\\jacki\\Desktop\\test mvc\\MVC-CSharp\\MVC-CSharp\\MVC-CSharp.csproj",
+        "projectPath": "C:\\Users\\jacki\\Desktop\\python kode\\MVC-CSharp\\MVC-CSharp\\MVC-CSharp\\MVC-CSharp.csproj",
         "packagesPath": "C:\\Users\\jacki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jacki\\Desktop\\test mvc\\MVC-CSharp\\MVC-CSharp\\obj\\",
+        "outputPath": "C:\\Users\\jacki\\Desktop\\python kode\\MVC-CSharp\\MVC-CSharp\\MVC-CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jacki\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,30 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,0 +1,22 @@
+﻿@page
+@model MVC_CSharp.Pages.TestfuncModel
+@{
+    ViewData["Title"] = "Testfunc";
+}
+
+<h1>Test functions</h1>
+
+<p>Show total counts of buttom press: @numberCount </p>
+
+<button class="btn btn-primary" asp-action=""> Click me </button>
+
+@functions
+{
+    int numberCount = 0;
+
+    private void incrementCount()
+    {
+        numberCount++;
+    }
+}
+
